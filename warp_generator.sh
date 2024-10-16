@@ -50,5 +50,5 @@ echo "${conf}"
 [ -t 1 ] && echo "########### КОНЕЦ КОНФИГА ###########"
 
 conf_base64=$(echo -n "${conf}" | base64 -w 0)
-echo "Скачать конфиг файлом: https://immalware.github.io/downloader.html?filename=DISCORD.conf&content=${conf_base64}"
+echo "Скачать конфиг файлом: https://drysua.github.io/downloader.html?filename=DISCORD.conf&content=${conf_base64}"
 echo -e "\n"
